@@ -73,7 +73,7 @@ body::after {
   margin-top: var(--padding-standard);
 }
 
-.clockAndTodo .toDo .question {
+.clockAndTodo .toDo .todoText {
   font-size: var(--font-size-medium);
 }
 
