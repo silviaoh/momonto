@@ -25,9 +25,16 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://source.unsplash.com/category/nature/1600x900");
+  background: cover no-repeat center center;
+  overflow: hidden;
+}
+
+body::after {
+  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
 }
 
 .weather {
