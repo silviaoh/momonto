@@ -92,3 +92,10 @@ body {
   color: var(--color-red);
   font-size: var(--font-size-medium);
 }
+
+.place {
+  color: var(--color-white);
+  width: 100%;
+  text-align: left;
+  margin-left: var(--padding-standard);
+}
