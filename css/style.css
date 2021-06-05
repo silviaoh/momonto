@@ -34,6 +34,7 @@ body {
   width: 100%;
   text-align: right;
   margin-right: var(--padding-standard);
+  margin-top: var(--padding-standard);
 }
 
 .weather .weatherInfo {
@@ -98,4 +99,5 @@ body {
   width: 100%;
   text-align: left;
   margin-left: var(--padding-standard);
+  margin-bottom: var(--padding-standard);
 }
