@@ -49,6 +49,32 @@ body::after {
   color: var(--color-white);
 }
 
+.clockAndTodo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question {
+  display: none;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50vh;
+}
+
+.question .questionInput {
+  font-size: var(--font-size-large);
+}
+
+.clockAndTodo {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
 .clockAndTodo .clock .time {
   color: var(--color-white);
   display: block;

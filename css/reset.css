@@ -95,6 +95,28 @@ button {
   background-color: transparent;
 }
 
+input[type="text"] {
+  border: 0;
+  background-color: transparent;
+  text-align: center;
+  color: #ffffff;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+input[type="text"]::placeholder {
+  color: #ffffff;
+  text-align: center;
+}
+
+input[type="text"]:focus::placeholder {
+  color: transparent;
+}
+
 ul {
   list-style: none;
 }
