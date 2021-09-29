@@ -1,1 +1,21 @@
-.DS_Store
+# dependencies
+react-momonto/node_modules
+react-momonto/.pnp
+react-momonto/.pnp.js
+
+# testing
+react-momonto/coverage
+
+# production
+react-momonto/build
+
+# misc
+react-momonto/.DS_Store
+react-momonto/.env.local
+react-momonto/.env.development.local
+react-momonto/.env.test.local
+react-momonto/.env.production.local
+
+react-momonto/npm-debug.log*
+react-momonto/yarn-debug.log*
+react-momonto/yarn-error.log*
