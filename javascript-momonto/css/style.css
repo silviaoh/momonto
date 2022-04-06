@@ -1,136 +1,38 @@
 @charset "UTF-8";
-@import url("reset.css");
+@import url('reset.css');
 :root {
-  /* padding */
-  --padding-standard: 1em;
+	/* padding */
+	--padding-standard: 1em;
 
-  /* color */
-  --color-white: #ffffff;
-  --color-red: #e53935;
+	/* color */
+	--color-white: #ffffff;
+	--color-red: #e53935;
 
-  /* font-size */
-  --font-size-micro: 0.8em;
-  --font-size-small: 1em;
-  --font-size-medium: 1.2em;
-  --font-size-large: 2.5em;
-  --font-size-xlarge: 10em;
+	/* font-size */
+	--font-size-micro: 0.8em;
+	--font-size-small: 1em;
+	--font-size-medium: 1.2em;
+	--font-size-large: 2.5em;
+	--font-size-xlarge: 10em;
 
-  /* element-size */
-  --size-btn: 1.3em;
+	/* element-size */
+	--size-btn: 1.3em;
 }
 
 /* momonto body */
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 100vw;
-  min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("https://source.unsplash.com/category/nature/1600x900");
-  background: cover no-repeat center center;
-  overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 100vw;
+	min-height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url('https://source.unsplash.com/category/nature/1600x900');
+	background: cover no-repeat center center;
+	overflow: hidden;
 }
 
 body::after {
-  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
-}
-
-.weather {
-  width: 100%;
-  text-align: right;
-  margin-right: var(--padding-standard);
-  margin-top: var(--padding-standard);
-}
-
-.weather .weatherInfo {
-  font-size: var(--font-size-micro);
-  color: var(--color-white);
-}
-
-.clockAndTodo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.question {
-  display: none;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 50vh;
-}
-
-.question .questionInput {
-  font-size: var(--font-size-large);
-}
-
-.clockAndTodo {
-  display: none;
-}
-
-.showing {
-  display: block;
-}
-
-.clockAndTodo .clock .time {
-  color: var(--color-white);
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: var(--font-size-xlarge);
-}
-
-.clockAndTodo .clock .name {
-  color: var(--color-white);
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: var(--font-size-large);
-}
-
-.clockAndTodo .toDo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: var(--color-white);
-  margin-top: var(--padding-standard);
-}
-
-.clockAndTodo .toDo .todoText {
-  font-size: var(--font-size-medium);
-}
-
-.clockAndTodo .toDo .List {
-  margin-top: var(--padding-standard);
-}
-
-.clockAndTodo .toDo .List .item {
-  display: flex;
-  align-items: center;
-}
-
-.clockAndTodo .toDo .List .checkbox {
-  width: var(--size-btn);
-  height: var(--size-btn);
-}
-
-.clockAndTodo .toDo .List .item .content {
-  font-size: var(--font-size-small);
-  margin: 0 var(--padding-standard);
-}
-
-.clockAndTodo .toDo .List .item .delete i {
-  color: var(--color-red);
-  font-size: var(--font-size-medium);
-}
-
-.place {
-  color: var(--color-white);
-  width: 100%;
-  text-align: left;
-  margin-left: var(--padding-standard);
-  margin-bottom: var(--padding-standard);
+	background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
 }
